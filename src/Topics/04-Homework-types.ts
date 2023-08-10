@@ -4,10 +4,10 @@
 interface superHeroe {
     name: 'string',
     age:'number',
-    adress: 'string',
-    calle: 'string',
-    pais: 'string',
-    ciudad:'string',
+    adress: {
+        calle: 'string',
+        pais: 'string',
+        ciudad:'string',
     showAdres: ()=> string,  
 
 }
